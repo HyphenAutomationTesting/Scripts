@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-06-13T16:39:41</date>
+  <millis>1528925981866</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Hyphen AT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Hyphen AT</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Hyphen AT</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:41</date>
+  <millis>1528925981933</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;c_fperez - C-FPEREZ-12V.hs.com&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">c_fperez - C-FPEREZ-12V.hs.com</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:41</date>
+  <millis>1528925981936</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows Server 2012 R2 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows Server 2012 R2 64bit</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:41</date>
+  <millis>1528925981939</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;172.29.3.104&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.29.3.104</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:41</date>
+  <millis>1528925981941</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.2.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.2.1</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:43</date>
+  <millis>1528925983040</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Open Hyphen Page</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Open Hyphen Page</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Open Hyphen Page</property>
+  <property name="source">C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Test Cases\\Open Hyphen Page.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-06-13T16:39:43</date>
+  <millis>1528925983115</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
