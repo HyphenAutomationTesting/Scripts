@@ -13,14 +13,32 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object qa_env
+     
+    /**
+     * <p></p>
+     */
+    public static Object user
+     
+    /**
+     * <p></p>
+     */
+    public static Object pass
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['qa_env' : 'https://qa.hs.com/Build/LogIn.asp', 'user' : 'hswarranty', 'pass' : 'password'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        qa_env = selectedVariables['qa_env']
+        user = selectedVariables['user']
+        pass = selectedVariables['pass']
         
     }
 }

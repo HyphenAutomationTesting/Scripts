@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hyphen AT" time="30" tests="0" failures="1" errors="0">
+   <testsuite name="Hyphen AT" tests="0" failures="1" errors="0" time="30" timestamp="2018-06-15 18:40:46" hostname="c_fperez - C-FPEREZ-12V.hs.com" id="Test Suites/Hyphen AT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180615_184036"/>
+         <property name="logFiles" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180615_184036\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c_fperez - C-FPEREZ-12V.hs.com"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.29.3.104"/>
+         <property name="sessionId" value="b81968145cee83146bccbb72f18c7a22"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Open Hyphen Page" classname="Test Cases/Open Hyphen Page" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling &amp; Management Software' or . = 'Hyphen Solutions | Construction Scheduling &amp; Management Software')]})"/>
+         <system-out><![CDATA[2018-06-15 18:40:48 - [TEST_CASE][FAILED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page FAILED because (of) Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})
+
+2018-06-15 18:40:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 18:41:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 18:41:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-06-15 18:41:05 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-06-15 18:41:05 - [TEST_STEP][PASSED] - setText: Text 'hyphen solutions' is set on object 'Object Repository/Page_Google/input_q'
+
+2018-06-15 18:41:06 - [MESSAGE][PASSED] - Text 'hyphen solutions' is set on object 'Object Repository/Page_Google/input_q'
+
+2018-06-15 18:41:06 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})
+
+2018-06-15 18:41:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-15 18:41:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})]]></system-out>
+         <system-err><![CDATA[2018-06-15 18:40:48 - [TEST_CASE][FAILED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page FAILED because (of) Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-15 18:40:46 - [TEST_SUITE][FAILED] - Hyphen AT: Test Cases/Open Hyphen Page FAILED because (of) Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})]]></system-out>
+      <system-err><![CDATA[2018-06-15 18:40:46 - [TEST_SUITE][FAILED] - Hyphen AT: Test Cases/Open Hyphen Page FAILED because (of) Unable to click on object 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'C-FPEREZ-12V', ip: '172.29.3.104', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\c_fperez\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: b81968145cee83146bccbb72f18c7a22
+*** Element info: {Using=xpath, value=//a[@href = 'https://www.hyphensolutions.com/' and (text() = 'Hyphen Solutions | Construction Scheduling & Management Software' or . = 'Hyphen Solutions | Construction Scheduling & Management Software')]})]]></system-err>
+   </testsuite>
+</testsuites>

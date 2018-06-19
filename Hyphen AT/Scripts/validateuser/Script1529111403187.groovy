@@ -18,28 +18,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.qa_env)
+WebUI.callTestCase(findTestCase('Open Hyphen Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_user_name'), GlobalVariable.user)
+WebUI.click(findTestObject('Page_BuildPro/userinfolink'))
 
-WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_password'), GlobalVariable.pass)
+WebUI.comment('waiting for user info')
 
-WebUI.click(findTestObject('Page_BuildPro Please Sign In/img_LoginButton'))
+WebUI.waitForPageLoad(5)
 
-flag = WebUI.verifyTextPresent('Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.', 
-    false)
+WebUI.verifyElementAttributeValue(findTestObject('user profile/name'), 'value', 'Warranty', 5)
 
-if (true) {
-    WebUI.check(findTestObject('Page_BuildPro Please Sign In/input_force_signon'))
+WebUI.verifyElementAttributeValue(findTestObject('user profile/lastname'), 'value', 'Guy', 5)
 
-    WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_password'), GlobalVariable.pass)
-
-    WebUI.click(findTestObject('Page_BuildPro Please Sign In/img_LoginButton'), FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.closeBrowser()
 

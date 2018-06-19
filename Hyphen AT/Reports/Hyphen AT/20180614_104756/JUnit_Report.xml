@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hyphen AT" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="Hyphen AT" tests="1" failures="0" errors="0" time="32" timestamp="2018-06-14 10:48:06" hostname="c_fperez - C-FPEREZ-12V.hs.com" id="Test Suites/Hyphen AT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180614_104756"/>
+         <property name="logFiles" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180614_104756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c_fperez - C-FPEREZ-12V.hs.com"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.29.3.104"/>
+         <property name="sessionId" value="3395c98d32b6eee6d56a29a7892884b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Open Hyphen Page" classname="Test Cases/Open Hyphen Page" status="PASSED">
+         <system-out><![CDATA[2018-06-14 10:48:07 - [TEST_CASE][PASSED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page
+
+2018-06-14 10:48:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-14 10:48:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-14 10:48:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-06-14 10:48:21 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-06-14 10:48:21 - [TEST_STEP][PASSED] - setText: Text 'hyphen solutions' is set on object 'Object Repository/Page_Google/input_q'
+
+2018-06-14 10:48:22 - [MESSAGE][PASSED] - Text 'hyphen solutions' is set on object 'Object Repository/Page_Google/input_q'
+
+2018-06-14 10:48:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' is clicked on
+
+2018-06-14 10:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_hyphen solutions - Google Sear/a_Hyphen Solutions  Constructi' is clicked on
+
+2018-06-14 10:48:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-14 10:48:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-14 10:48:06 - [TEST_SUITE][PASSED] - Hyphen AT: Test Cases/Open Hyphen Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
