@@ -32,14 +32,15 @@ WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_password'), Glo
 
 WebUI.click(findTestObject('Page_BuildPro Please Sign In/img_LoginButton'))
 
-flag = WebUI.verifyTextPresent('Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.', 
-    false)
 
-if (true) {
-    WebUI.check(findTestObject('Page_BuildPro Please Sign In/input_force_signon'))
+if(WebUI.verifyTextPresent('Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.', 
+    false))
+	{
+		WebUI.check(findTestObject('Page_BuildPro Please Sign In/input_force_signon'))
+	
+		WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_password'), GlobalVariable.pass)
+	
+		WebUI.click(findTestObject('Page_BuildPro Please Sign In/img_LoginButton'), FailureHandling.STOP_ON_FAILURE)
+	}
 
-    WebUI.setText(findTestObject('Page_BuildPro Please Sign In/input_password'), GlobalVariable.pass)
-
-    WebUI.click(findTestObject('Page_BuildPro Please Sign In/img_LoginButton'), FailureHandling.STOP_ON_FAILURE)
-}
 
