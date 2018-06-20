@@ -4,17 +4,16 @@
    <name>Hyphen AT</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-20T10:41:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>3f75a887-6392-45a3-82ab-cc886f6b187c</testSuiteGuid>
+   <testSuiteGuid>b1ec567d-4fd2-4c90-8da1-20c6a151d4a3</testSuiteGuid>
    <testCaseLink>
-      <guid>95994233-bec2-4800-bc2e-ab2f95407526</guid>
+      <guid>aaf31e5f-719b-4d2d-8244-9e3d932cf60f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Open Hyphen Page</testCaseId>
+      <testCaseId>Test Cases/validateuser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
