@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hyphen AT,Chrome 67.0.3396.87,,2018-06-19 12:06:23,2018-06-19 12:06:37,14.184s,PASSED
+,,,,,,
+Test Cases/Open Hyphen Page,Chrome 67.0.3396.87,,2018-06-19 12:06:24,2018-06-19 12:06:37,12.712s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-19 12:06:25,2018-06-19 12:06:32,6.997s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-19 12:06:32,2018-06-19 12:06:33,0.938s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-19 12:06:33,2018-06-19 12:06:33,0.145s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-19 12:06:33,2018-06-19 12:06:33,0.410s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-19 12:06:33,2018-06-19 12:06:33,0.297s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-19 12:06:33,2018-06-19 12:06:34,0.685s,PASSED
+"Statement - flag = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the ""Force Sign In"" option."", false)",Chrome 67.0.3396.87,,2018-06-19 12:06:34,2018-06-19 12:06:35,0.381s,PASSED
+Statement - If (true),Chrome 67.0.3396.87,,2018-06-19 12:06:35,2018-06-19 12:06:37,2.071s,PASSED

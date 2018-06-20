@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hyphen AT" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="Hyphen AT" tests="1" failures="0" errors="0" time="17" timestamp="2018-06-19 12:10:35" hostname="C-FPEREZ-12V$ - C-FPEREZ-12V.hs.com" id="Test Suites/Hyphen AT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180619_121029"/>
+         <property name="logFiles" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180619_121029\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="C-FPEREZ-12V$ - C-FPEREZ-12V.hs.com"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.29.3.104"/>
+         <property name="sessionId" value="7adf337f6143804b3064ef95321b51db"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Open Hyphen Page" classname="Test Cases/Open Hyphen Page" status="PASSED">
+         <system-out><![CDATA[2018-06-19 12:10:38 - [TEST_CASE][PASSED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page
+
+2018-06-19 12:10:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-19 12:10:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-19 12:10:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.hs.com/Build/LogIn.asp' successfully
+
+2018-06-19 12:10:48 - [MESSAGE][PASSED] - Navigate to 'https://qa.hs.com/Build/LogIn.asp' successfully
+
+2018-06-19 12:10:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-19 12:10:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-19 12:10:48 - [TEST_STEP][PASSED] - setText: Text 'hswarranty' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_user_name'
+
+2018-06-19 12:10:48 - [MESSAGE][PASSED] - Text 'hswarranty' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_user_name'
+
+2018-06-19 12:10:48 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-19 12:10:49 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-19 12:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-19 12:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-19 12:10:49 - [TEST_STEP][PASSED] - Statement - flag = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.", false): Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present on page 
+
+2018-06-19 12:10:49 - [MESSAGE][PASSED] - Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present on page 
+
+2018-06-19 12:10:49 - [TEST_STEP][PASSED] - Statement - If (true): Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-19 12:10:49 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_BuildPro Please Sign In/input_force_signon' is checked
+
+2018-06-19 12:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BuildPro Please Sign In/input_force_signon' is checked
+
+2018-06-19 12:10:50 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-19 12:10:50 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-19 12:10:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-19 12:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-19 12:10:35 - [TEST_SUITE][PASSED] - Hyphen AT: Test Cases/Open Hyphen Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

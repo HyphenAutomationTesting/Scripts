@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hyphen AT" time="19" tests="0" failures="1" errors="0">
+   <testsuite name="Hyphen AT" tests="0" failures="1" errors="0" time="19" timestamp="2018-06-20 10:41:53" hostname="C-FPEREZ-12V$ - C-FPEREZ-12V.hs.com" id="Test Suites/Hyphen AT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180620_104145"/>
+         <property name="logFiles" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180620_104145\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180620_104145\\1529509331581.png"/>
+         <property name="hostName" value="C-FPEREZ-12V$ - C-FPEREZ-12V.hs.com"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.29.3.104"/>
+         <property name="sessionId" value="a24d5346baffd35ad8bc898b4ee6e51d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Open Hyphen Page" classname="Test Cases/Open Hyphen Page" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the &quot;Force Sign In&quot; option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the &quot;Force Sign In&quot; option.' is not present on page )"/>
+         <system-out><![CDATA[2018-06-20 10:41:54 - [TEST_CASE][FAILED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page FAILED because (of) Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )
+
+2018-06-20 10:41:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-20 10:42:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-20 10:42:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.hs.com/Build/LogIn.asp' successfully
+
+2018-06-20 10:42:05 - [MESSAGE][PASSED] - Navigate to 'https://qa.hs.com/Build/LogIn.asp' successfully
+
+2018-06-20 10:42:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-20 10:42:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-20 10:42:05 - [TEST_STEP][PASSED] - setText: Text 'hswarranty' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_user_name'
+
+2018-06-20 10:42:05 - [MESSAGE][PASSED] - Text 'hswarranty' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_user_name'
+
+2018-06-20 10:42:05 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-20 10:42:06 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_BuildPro Please Sign In/input_password'
+
+2018-06-20 10:42:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-20 10:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BuildPro Please Sign In/img_LoginButton' is clicked on
+
+2018-06-20 10:42:08 - [TEST_STEP][FAILED] - Statement - flag = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.", false): Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )
+
+2018-06-20 10:42:11 - [MESSAGE][FAILED] - Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page 
+
+2018-06-20 10:42:11 - [MESSAGE][FAILED] - Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )
+[[ATTACHMENT|C:\\Users\\c_fperez\\.jenkins\\Scripts\\Hyphen AT\\Reports\\Hyphen AT\\20180620_104145\\1529509331581.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-20 10:41:54 - [TEST_CASE][FAILED] - Test Cases/Open Hyphen Page: Test Cases/Open Hyphen Page FAILED because (of) Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-20 10:41:53 - [TEST_SUITE][FAILED] - Hyphen AT: Test Cases/Open Hyphen Page FAILED because (of) Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )]]></system-out>
+      <system-err><![CDATA[2018-06-20 10:41:53 - [TEST_SUITE][FAILED] - Hyphen AT: Test Cases/Open Hyphen Page FAILED because (of) Unable to verify text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is present  (Root cause: Text 'Another session is currently active with this User ID. You can continue to sign in with this User ID by checking the "Force Sign In" option.' is not present on page )]]></system-err>
+   </testsuite>
+</testsuites>
