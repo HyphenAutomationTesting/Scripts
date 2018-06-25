@@ -5,4 +5,11 @@
    <tag></tag>
    <comment>waiting for user info</comment>
    <testCaseGuid>f2582ad8-4d2d-46aa-a033-1a89a2b96506</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f7f73e7-3ad8-491c-bb9a-c8a36018c793</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

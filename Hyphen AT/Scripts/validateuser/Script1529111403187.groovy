@@ -33,5 +33,3 @@ WebUI.verifyElementAttributeValue(findTestObject('user profile/name'), 'value', 
 
 WebUI.verifyElementAttributeValue(findTestObject('user profile/lastname'), 'value', 'Guy', 5)
 
-WebUI.closeBrowser()
-

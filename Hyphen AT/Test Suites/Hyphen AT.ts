@@ -4,7 +4,7 @@
    <name>Hyphen AT</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-20T14:12:15</lastRun>
+   <lastRun>2018-06-25T15:20:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,47 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/validateuser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f7f73e7-3ad8-491c-bb9a-c8a36018c793</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9ace4b1-8129-46b8-9b15-3d6b3fd16c78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/updateuser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de2532e2-820b-4362-bc21-5dcbf2539317</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>969f4cbd-87af-406d-8830-7c0e610ea0f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>617f915d-9f6f-463d-9a95-5e084e1e6714</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/restoreuser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdd36048-951f-4c90-aad3-9d2a779b6b34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e52c3c1-a449-4f18-b9c1-3ca22764ba1f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
